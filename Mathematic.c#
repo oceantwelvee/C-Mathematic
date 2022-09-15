@@ -10,8 +10,23 @@ namespace myFirstProject
             Console.Write("Введите число с точкой: ");
             //user_input = Convert.ToDouble(Console.ReadLine());
             float user_input = float.Parse(Console.ReadLine());
-         
-            Console.WriteLine("переменная: " + user_input)
+
+
+            float result;
+            result = user_input + 10f;
+
+            result *= 5f; // Сокращенный вариант **result = result * 5f;**
+
+            //result = user_input - 10f; // Можно уменшить число на 10;
+            //result = user_input * 5f;  // Умножить
+            //result = user_input / 3f; // Разделить
+            //result = user_input % 3f; // Получить остаток 
+
+            //int a = 5, b = 10;
+            //int res = a + b;
+            //Console.WriteLine(res);
+
+            Console.WriteLine("переменная: " + user_input);
     }
     }
 }
