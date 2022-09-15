@@ -30,8 +30,8 @@ namespace myFirstProject
             
             // МАТЕМАТИЧЕСКИЕ ДЕЙСТВИЯ
             
-            //Console.WriteLine(Math.PI); - 
-            //Console.WriteLine(Math.Abs(20));
+            //Console.WriteLine(Math.PI); - // Представляет отношение длины окружности к ее диаметру, определяемое константой π.
+            //Console.WriteLine(Math.Abs(20)); - // Возвращает абсолютное значение заданного числа.
             //Console.WriteLine(Math.Ceiling(4.7f)); // Округляет число к большему - 5
             //Console.WriteLine(Math.Floor(4.99f)); // Округляет число к меньшему - 4; 
             //Console.WriteLine(Math.Round(4.6f)); // Округляет число в зависимости от числа;
