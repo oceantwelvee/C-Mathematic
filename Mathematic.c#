@@ -12,6 +12,7 @@ namespace myFirstProject
             float user_input = float.Parse(Console.ReadLine());
          
             Console.WriteLine("переменная: " + user_input);
+            Console.Write("10");
     }
     }
 }
