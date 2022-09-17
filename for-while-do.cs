@@ -51,6 +51,16 @@ namespace myFirstProject
                 Console.WriteLine("El {0}" + i);
             } while (i < 10);
 
+                                  
+              // break Для остановки цикла
+               for(short i = 0; i < 10; i++) {
+                   // Хочу чтобы цикл остановился когда дойдет до 5;
+                   if(i > 5) break;
+                   Console.WriteLine("El:" + i);
+               }
+             
+              // Continue
+                if (i % 2 == 0) continue;
         }
     }
 }
