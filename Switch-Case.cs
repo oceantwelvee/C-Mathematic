@@ -24,6 +24,10 @@ namespace myFirstProject
                 case 100:
                     Console.WriteLine("number is 100");
                     break;
+
+                default: // "Иначе" если предыдущие значении не сработали..
+                    Console.WriteLine("Not a Number!");
+                    break;
             }
         }
     }
