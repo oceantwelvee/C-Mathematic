@@ -41,6 +41,19 @@ namespace myFirstProject
                 Console.WriteLine("El: " + numbers[i]);
             }
             
+//             Многомерные массивы
+            
+              int[,] nums =
+            {
+                {4,6,7 },
+                {5,7,8 },
+                {9, 14, 32 }
+            };
+            nums[1, 1] = 50;
+            
+           
+            }
+            
         }
     }
 }
