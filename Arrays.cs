@@ -30,6 +30,17 @@ namespace myFirstProject
                 Console.WriteLine("El: " + words[i]);
             }
             
+            // Практическое приминение
+            
+             short[] numbers = new short[10];
+
+            Random random = new Random();
+            for(byte i = 0; i < numbers.Length; i++)
+            {
+                numbers[i] = Convert.ToInt16(random.Next(-15, 15));
+                Console.WriteLine("El: " + numbers[i]);
+            }
+            
         }
     }
 }
