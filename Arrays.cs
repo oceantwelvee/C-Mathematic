@@ -92,6 +92,21 @@ namespace myFirstProject
                 Console.WriteLine("Our Companies: " + com);
         }
             }
+    
+       List<int> numbers = new List<int>()
+            {
+                4,5,6,7
+            };
+            numbers.Add(40);
+            numbers.Add(80);
+            numbers.Add(100);
+
+            numbers.Remove(100);
+
+            foreach(int el in numbers)
+            {
+                Console.WriteLine("El: " + el);
+            }
             
         }
     }
