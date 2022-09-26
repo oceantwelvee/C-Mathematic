@@ -10,8 +10,13 @@ namespace myFirstProject
         {
 
                 //functions;
+                   Print(); // Вызываем функцию 
 
-
+        }
+        
+        public static void Print() /// создаем публичную функцию...
+        {
+            Console.WriteLine("Hello");
         }
     }
 }
