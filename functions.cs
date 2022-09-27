@@ -1,6 +1,5 @@
-//functions;
-
 using System;
+
 
 namespace myFirstProject
 {
@@ -8,15 +7,27 @@ namespace myFirstProject
     {
         static void Main()
         {
+            //functions;
+            //Print("Hello");
+            //Print("How are you?");
+            //Print("Thank you");
 
-                //functions;
-                   Print(); // Вызываем функцию 
-
+            int res1 = Sum(5, 9);
+            int a = 3, b = 9;
+            int res2 = Sum(a, b);
+            Print(res1.ToString());
+            Print(res2.ToString());
         }
-        
-        public static void Print() /// создаем публичную функцию...
+       public static void Print(string words)
         {
-            Console.WriteLine("Hello");
+            Console.WriteLine(words);
         }
+
+        public static int Sum(int x, int y)
+        {
+           return x + y;
+        }
+       
     }
+ 
 }
